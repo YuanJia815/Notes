@@ -1,17 +1,17 @@
 module.exports = {
-    title: 'HI YuanJia',
-    description: 'Just playing around',
+    title: 'YuanJia\'s Notes',
     base:'/myNotes/',
     themeConfig: {
         sidebar: [
           '/',
-          '/Category_1/',
           {
-            title: '是喔',
-            path: '/Category_2/',
-            children: ['/Category_2/test1.md', '/Category_2/test2.md']
-          }
+            title: '類別1',
+            path: '/Category_1/',
+            //children: ['/Category_1/test1.md', '/Category_1/test2.md'],
+            children: [{title: '程式範例', path: '/Category_1/test1.md'}, '/Category_1/test2.md']
+          } 
           
         ]
-      }
+      },
   }
+
