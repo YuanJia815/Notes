@@ -1,5 +1,5 @@
 {
-  "name": "docs",
+  "name": "mynotes",
   "private": true,
   "scripts": {
     "docs:build": "vuepress-cli build docs --clean-cache",

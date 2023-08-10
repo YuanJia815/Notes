@@ -9,7 +9,7 @@ import { navbar, sidebar } from "./configs"// 從外部文件中引入導航欄�
 const isProd = process.env.NODE_ENV === "production"
 
 export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
-  base: "/",// 設置基本 URL
+  base: "/myNotes/",// 設置基本 URL
   plugins: [mermaidPlugin()],
 
   head: [// head 配置，用於定義頁面的 <head> 元素內容，例如網頁標題、圖示等
