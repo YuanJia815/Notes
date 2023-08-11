@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eac6c980","path":"/notes/advanced/comment.html","title":"Comment","lang":"zh-TW","frontmatter":{"title":"Comment","date":"2021-03-26T00:00:00.000Z","giscus":false},"excerpt":"","headers":[],"git":{"updatedTime":1691771377000},"readingTime":{"minutes":1,"words":9},"filePathRelative":"notes/advanced/comment.md"}');export{e as data};
