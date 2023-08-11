@@ -18,12 +18,12 @@ export const zh: NavbarConfig = [
     icon: "fa-satellite-dish"
   },
   {
-    text: "文檔",
-    link: "/zh/docs/basic/intro.md",
+    text: "筆記",
+    link: "/notes/basic/intro.md",
     icon: "ri-book-2-fill"
   },
   {
-    text: `list`,
+    text: `選單`,
     icon: "co-git",
     children: [
       {

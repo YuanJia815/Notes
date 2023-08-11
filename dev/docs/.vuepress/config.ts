@@ -48,8 +48,8 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
   locales: {
     "/": {
       lang: "zh-TW",
-      title: "元嘉的網頁",
-      description: "一個用於 VuePress 的部落格主題"
+      title: "元嘉的個人網站",
+      description: "YuanJia Zhong"
     }
   },
 
@@ -65,24 +65,24 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
     // 個人信息
     personalInfo: {
       name: "YuanJia",
-      avatar: "/img/avatar.jpeg",
-      description: "無聊",
+      avatar: "/img/avatar1.png",
+      description: "測試而已~",
       sns: {
         github: "YuanJia815",
         facebook: "profile.php?id=100001303909620",
         email: "C110152348@nkust.edu.tw",
         // 自定義的社交媒體
-        bilibili: {
-          icon: "ri-bilibili-line",
-          link: "https://www.bilibili.com/"
-        }
+        // bilibili: {
+        //   icon: "ri-bilibili-line",
+        //   link: "https://www.bilibili.com/"
+        // }
       }
     },
 
-    // 首頁的頭部圖片
+    // 首頁的頭部圖片 /img/home-bg/3.gif
     homeHeaderImages: [
       {
-        path: "/img/home-bg/3.gif",
+        path: "https://i.imgur.com/3OABInb.gif",
         mask: "rgba(70, 6, 0, .1)"
       },
     ],
@@ -90,15 +90,14 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
     // 其他頁面
     pages: {
       tags: {
-        subtitle: "黑羊牆",
+        subtitle: "- 標籤 -",
         bgImage: {
           path: "/img/pages/tags.jpg",
           mask: "rgba(211, 136, 37, .5)"
         }
       },
       links: {
-        subtitle:
-          "當你凝望著星空時，請將最亮的星星視為我靈魂中閃耀的星星。",
+        subtitle: "- 連結 -",
         bgImage: {
           path: "/img/pages/links.jpg",
           mask: "rgba(64, 118, 190, 0.5)"
@@ -108,19 +107,11 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
 
     // 主題級別的語言配置
     locales: {
-
-      /* 英文語言配置 由於默認語言為英文，我們不需要設置所有的語言字段 */
       "/": {     
         navbar: navbar.zh,// 導航欄 
         sidebar: sidebar.zh, // 側邊欄    
-        navbarTitle: "YuanJia",
+        navbarTitle: "o",
       },
-
-      /* 繁體中文語言配置 */
-      "/zh/": {    
-        navbar: navbar.en,// 導航欄      
-        sidebar: sidebar.en// 側邊欄
-      }
     },
 
     themePlugins: { // 只在生產環境中啟用 git 插件  
@@ -154,7 +145,7 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
     footer: `
       &copy; <a href="https://github.com/YuanJia815" target="_blank">YuanJia Zhong 2003</a>
       <br>
-      Base - <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
+      Based - <a href="https://v2.vuepress.vuejs.org" target="_blank">VuePress</a> &
       <a href="https://github.com/Renovamen/vuepress-theme-gungnir" target="_blank">Gungnir</a>
     `
   }),
