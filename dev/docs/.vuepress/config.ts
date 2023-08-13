@@ -14,7 +14,7 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
 
   head: [// head 配置，用於定義頁面的 <head> 元素內容，例如網頁標題、圖示等
     [
-      "link",
+      "link",// D:\Coding\NodeJs\myNotes\dev\node_modules\vuepress-theme-gungnir\lib
       {
         rel: "icon",
         type: "image/png",
@@ -113,6 +113,7 @@ export default defineUserConfig({// 定義並配置 VuePress 的使用者設定
         navbarTitle: "o",
       },
     },
+
 
     themePlugins: { // 只在生產環境中啟用 git 插件  
       git: isProd,

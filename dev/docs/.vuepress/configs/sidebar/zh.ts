@@ -4,15 +4,16 @@ export const zh: SidebarConfig = {
   "/notes/": [
     {
       text: "拔辣",
+      link: "/notes/advanced/comment.md",
       children: [
         "/notes/basic/intro.md",
-        "/notes/basic/linked-list_binary-tree.md",
+        
       ]
     },
     {
-      text: "蓮霧",
+      text: "C/C++",
       children: [
-        "/notes/advanced/comment.md",
+        "/notes/C, C++/data-structure.md",
       ]
     },
   ]
