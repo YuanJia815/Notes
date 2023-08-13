@@ -3,8 +3,7 @@ import type { SidebarConfig } from "vuepress-theme-gungnir";
 export const zh: SidebarConfig = {
   "/notes/": [
     {
-      text: "拔辣",
-      link: "/notes/advanced/comment.md",
+      text: "介紹",
       children: [
         "/notes/basic/intro.md",
         
