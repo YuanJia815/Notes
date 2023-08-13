@@ -6,7 +6,6 @@ export const zh: SidebarConfig = {
       text: "介紹",
       children: [
         "/notes/basic/intro.md",
-        
       ]
     },
     {
